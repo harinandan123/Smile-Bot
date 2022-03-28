@@ -1,2 +1,4 @@
 #Token file
 .env
+env/
+.env/
