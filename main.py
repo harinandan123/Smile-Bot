@@ -11,7 +11,7 @@ from replit import db
 from replit import Database
 from discord.ext import commands
 
-TOKEN = 'OTI4MjEwNTc2ODc2OTI0OTM4.YdVddg.wZqaP9HBbJEh1lr6ZNAZsF8vOH8'
+TOKEN = 'ORSFI4MjEwNTc2ODc2OTI0OTM4.YdVddg.wZqa9JEh1lr6ZNAZsF8vOH8'
 db = Database(db_url="https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE2NDg1NzA0MDAsImlhdCI6MTY0ODQ1ODgwMCwiZGF0YWJhc2VfaWQiOiI3ZWYxYmIyMy1jYTc3LTRiYjItOGI3ZC04MDQwZTAwNWE4YWQifQ.gqcjKETfJgUcw-NfrMbtk00NoEdIpHtwesD2xoFlulBH5xqNhsprrotwgFLqjXQFNa2rqG7I-DKclE6suhq6ng")
 db['bad_words'] = ["stupid", "idiot", "dumb"]
 db['person_sad'] = ["sad", "depressed", "anexiety", "angry"]
