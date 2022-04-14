@@ -5,11 +5,13 @@ import discord
 import discord.utils
 from typing import Awaitable
 import datetime
+from dotenv import load_dotenv
 import requests
 import json
 from replit import db
 from replit import Database
 from discord.ext import commands
+load_dotenv()
 TOKEN = os.environ['TOKEN']
 db = Database(db_url="sorry,its a secret")
 db['bad_words'] = ["stupid", "idiot", "dumb"]
